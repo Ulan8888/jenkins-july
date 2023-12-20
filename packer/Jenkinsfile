@@ -15,7 +15,6 @@ spec:
     '''
 
 
-
 if (env.BRANCH_NAME == "main") {
     kaizen = "us-east-1"
     type = "t2.micro"
@@ -64,7 +63,7 @@ parameters: [
   string(name: 'region', value: "${kaizen}"), 
   string(name: 'ami_id', value: "my-ami-${buildNumber}"), 
   string(name: 'type', value: "${type}"  ), 
-  string(name: 'az', value: "${kaizen}"), 
+  string(name: 'az', value: "${kaizen}b"), 
   string(name: 'key', value: "${key}")]
 
 }}

@@ -16,3 +16,4 @@ data "aws_ami" "amazon" {
   }
   owners = ["self"]
 }
+

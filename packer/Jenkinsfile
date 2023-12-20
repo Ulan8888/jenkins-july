@@ -28,7 +28,7 @@ else if (env.BRANCH_NAME == "dev") {
     
 }
 else if (env.BRANCH_NAME == "qa") {
-    kaizen = "us-west-1"
+    kaizen = "us-west-2"
     type = "t2.small"
     key = "my-laptop"
 }

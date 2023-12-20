@@ -64,7 +64,7 @@ parameters: [
   string(name: 'region', value: "${kaizen}"), 
   string(name: 'ami_id', value: "my-ami-${buildNumber}"), 
   string(name: 'type', value: "${type}"  ), 
-  string(name: 'az', value: "${kaizen}b"), 
+  string(name: 'az', value: "${kaizen}"), 
   string(name: 'key', value: "${key}")]
 
 }}
